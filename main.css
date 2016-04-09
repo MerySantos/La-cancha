@@ -1,17 +1,19 @@
-/* Inserta tu CSS aqui */
+.imagenes{
+	background-image: url(img/bola.png);
+	width: 24px;
+	height: 24px;
+}
 .coloreado{
 	background:#8CB17B;
 	border:1px solid #FFF;
 	position: relative;
 }
-
 .contenedor{
-	width: 700px;
-	height: 350px;
-	padding: 2%;
+	width: 1000px;
+	height: 500px;
+	padding: 1.5%;
 	position: absolute;
 }
-
 .contenedor>div{
 	position: relative;
 	width: 100%;
@@ -20,31 +22,38 @@
 
 .elementos{
 	position: absolute;
-	top: 100px;
+	top: 30%;
 }
+	.circulo {
+	    width: 21.42%; /*150px;*/
+	    height:42.85%;/* 150px;*/
+	    border-radius: 50%;
+	    /* centrar con position*/
+	    margin: auto;
+	    top:0;
+		left:0;
+		right:0;
+		bottom:0;  
+	}
+	.rect{
+		width: 14.28%; /* 100px  14.28% */
+		height: 42.85%; /*150px  42.85% */
+	}
+		#izquierda { border-left:none; }
 
-.circulo {
-     width: 150px;
-     height: 150px;
-     border-radius: 50%;
-     margin: auto;
-     top:0;
-	left:0;
-	right:0;
-	bottom:0;
-     
-}
-.rect{
-	width:100px ; /*7% */
-	height: 150px ; /*42.85% */
-	
-}
-#izquierda { 
-	border-left:none; 
-}
-
-#derecha{
-	border-right:none; 
-	right: 0;
-}
-
+		#derecha{
+			border-right:none; 
+			right: 0;
+	}
+	#bola1{
+		top: 31%;
+		left: 12.9%;
+	}
+	#bola2{
+		top: 12%;
+		left: 53%;
+	}
+	#bola3{
+		top: 66.5%;
+		right: 15%;
+	}
